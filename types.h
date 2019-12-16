@@ -30,12 +30,14 @@ typedef uint32_t      usize;
 typedef uint64_t      usize;
 #endif
 
-#if INTPTR_MAX == 0xffff
+#if INT_MAX == 0xffff
 typedef int16_t       isize;
-#elif INTPTR_MAX == 0xffffffff
+#elif INT_MAX == 0xffffffff
 typedef int32_t       isize;
-#elif INTPTR_MAX == 0xffffffffffffffff
+#elif INT_MAX == 0xffffffffffffffff
 typedef int64_t       isize;
+#else
+typedef int32_t       isize;
 #endif
 
 #endif
