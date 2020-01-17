@@ -1,5 +1,5 @@
 /*
- * type.h: defines integer types.
+ * type.h: defines integer/boolean types.
  * this file is part of the LPTSTR common C header collection, and
  * is licensed under the MIT license.
  * (c) Kied Llaentenn and all contributors.
@@ -13,6 +13,10 @@
 #ifndef TYPE_H
 #define TYPE_H
 #include <stdint.h>
+
+#define TRUE              1
+#define FALSE             0
+typedef uint8_t        bool;
 
 typedef uint8_t          u8;
 typedef uint16_t        u16;
