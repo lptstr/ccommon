@@ -10,8 +10,8 @@
  * I miss the Rust type system :P
 */
 
-#ifndef TYPE_H
-#define TYPE_H
+#ifndef CCOMMON_TYPES_H
+#define CCOMMON_TYPES_H
 #include <stdint.h>
 
 #define TRUE              1
