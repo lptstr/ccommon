@@ -16,7 +16,7 @@
 
 #define TRUE              1
 #define FALSE             0
-typedef uint8_t        bool;
+typedef _Bool          bool;
 
 typedef uint8_t          u8;
 typedef uint16_t        u16;
